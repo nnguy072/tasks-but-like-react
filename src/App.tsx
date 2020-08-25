@@ -9,18 +9,17 @@ import AddTask from './components/Task/AddTask';
 import About from './components/pages/About';
 import axios from 'axios';
 
-interface IProps {
-
+type AppProps = {
 }
 
-interface IState {
+type AppState = {
   tasks: TaskModel[];
 }
 
-class App extends React.Component<IProps, IState> {
+class App extends React.Component<AppProps, AppState> {
   private fakeApiBaseUrl: string = "https://jsonplaceholder.typicode.com";
   
-  constructor(props: IProps) {
+  constructor(props: AppProps) {
     super(props);
 
     this.state = {
