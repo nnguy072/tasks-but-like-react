@@ -1,7 +1,7 @@
 import React from 'react';
 
 type AddTaskProps = {
-  addTask: (title: string) => void;
+  addTask: (title: string) => Promise<void>;
 }
 
 export default class AddTask extends React.PureComponent<AddTaskProps> {

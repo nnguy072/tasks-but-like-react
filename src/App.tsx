@@ -5,16 +5,35 @@ import Tasks from './components/Task/Tasks';
 import { TaskModel } from './models/task';
 import Header from './components/layout/Header';
 import AddTask from './components/Task/AddTask';
-import { v4 as uuid} from 'uuid';
+// import { v4 as uuid} from 'uuid';
 import About from './components/pages/About';
+import axios from 'axios';
 
-class App extends React.Component {
-  state = {
-    tasks: [
-      new TaskModel(uuid(), "Create App"),
-      new TaskModel(uuid(), "Create Tasks"),
-      new TaskModel(uuid(), "Drink water"),
-    ]
+interface IProps {
+
+}
+
+interface IState {
+  tasks: TaskModel[];
+}
+
+class App extends React.Component<IProps, IState> {
+  private fakeApiBaseUrl: string = "https://jsonplaceholder.typicode.com";
+  
+  constructor(props: IProps) {
+    super(props);
+
+    this.state = {
+      tasks: []
+    }
+  }
+
+  async componentDidMount() {
+    const response = await axios.get(this.fakeApiBaseUrl + '/todos?_limit=10');
+
+    this.setState({
+      tasks: response.data.map((o: any) => new TaskModel(o.id, o.title, o.completed))
+    })
   }
 
   private markComplete(id: string): void {
@@ -29,16 +48,30 @@ class App extends React.Component {
     });
   }
 
-  private addTask(title: string): void {
+  private async addTask(title: string): Promise<void> {
     console.log(title);
 
+    // this.setState({
+    //   tasks: [...this.state.tasks, new TaskModel(uuid(), title)]
+    // });
+
+    const createCommand: any = {
+      title: title, 
+      completed: false
+    };
+
+    const response = await axios.post(this.fakeApiBaseUrl + '/todos', createCommand);
+
     this.setState({
-      tasks: [...this.state.tasks, new TaskModel(uuid(), title)]
+      tasks: [...this.state.tasks, new TaskModel(response.data.id, response.data.title, response.data.completed)]
     });
   }
 
-  private deleteTask(id: string): void {
+  private async deleteTask(id: string): Promise<void> {
     console.log(id);
+
+    const response = await axios.delete(this.fakeApiBaseUrl + '/todos/' + id);
+    console.log(response);
 
     this.setState({
       tasks: this.state.tasks.filter(o => o.id !== id)

@@ -5,7 +5,7 @@ import TaskItem from './TaskItem';
 type TasksProps = {
   tasks: TaskModel[];
   markComplete: (taskId: string) => void;
-  deleteTask: (taskId: string) => void;
+  deleteTask: (taskId: string) => Promise<void>;
 }
 
 export default class Tasks extends React.Component<TasksProps> {
