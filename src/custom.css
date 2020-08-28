@@ -1,12 +1,12 @@
 /* https://stage.scriptsure.com/app/assets/styles/sample2-css.css */
 
-/* #ss-main-nav {
+#ss-main-nav {
   display: none;
 }
 
 #ss-content {
   padding-top: 0px;
-} */
+}
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
   background-color: #FF5722;
@@ -98,12 +98,6 @@ md-card {
   flex-direction: column;
   margin: 8px;
    box-shadow: none;
-}
-
-.ss-navigation-selected {
-  min-height: 64px;
-  background: #FF8A65;
-  color: white;
 }
 
 #prescription-nav {
