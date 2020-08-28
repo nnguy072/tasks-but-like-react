@@ -1,9 +1,112 @@
 /* https://stage.scriptsure.com/app/assets/styles/sample2-css.css */
 
-#ss-main-nav {
+/* #ss-main-nav {
   display: none;
 }
 
 #ss-content {
   padding-top: 0px;
+} */
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+  background-color: #FF5722;
+  color: rgb(255,255,255);
+}
+
+.md-subheader.md-default-theme, .md-subheader {
+  color: rgba(0,0,0,0.54) !important;
+  background-color: #FFCCBC !important;
+}
+
+.md-button.md-default-theme.md-primary, .md-button.md-primary {
+  color: rgba(0,0,0,0.54) !important;
+  background-color: #FFCCBC !important;
+}
+
+.md-button.md-actions-theme.md-primary {
+  background-color: #FF5722 !important;
+  color: rgb(255,255,255) !important;
+}
+
+md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar), md-toolbar.md-hue-1:not(.md-menu-toolbar) {
+  background-color: #FFCCBC !important;
+  color: rgba(0,0,0,0.87);
+}
+
+#main-nav-practice {
+  background-color: #FFCCBC !important;
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#main-nav-practice-icon {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#main-nav-prescriber-icon {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#main-nav-patient-icon {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#main-nav-practice-text {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#main-nav-prescriber-text {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#main-nav-patient-text {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#prescription-nav-practice-icon {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#prescription-nav-prescriber-icon {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#prescription-nav-patient-icon {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#prescription-nav-practice-text {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#prescription-nav-prescriber-text {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+#prescription-nav-patient-text {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+.md-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+}
+
+md-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+   box-shadow: none;
+}
+
+.ss-navigation-selected {
+  min-height: 64px;
+  background: #FF8A65;
+  color: white;
+}
+
+#prescription-nav {
+  background-color: #FFCCBC !important;
+  color: rgba(0,0,0,0.87) !important;
 }
