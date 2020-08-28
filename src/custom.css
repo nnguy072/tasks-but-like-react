@@ -115,3 +115,8 @@ md-whiteframe > div#ss-prescription-name + div > div.layout-column > md-toolbar.
   background: #00a8ff !important;
   color: rgba(0, 0, 0, 0.87) !important
 }
+
+div.ss-prescription-name > div.layout-column > md-menu > .md-button.md-default-theme.md-primary, .md-button.md-primary {
+ background: white !important;
+ background-color: white !important; 
+}
