@@ -106,21 +106,31 @@ md-dialog > form > md-toolbar > div.md-toolbar-tools {
 
 /* THE ONE RIGHT UNDER TOP-MOST WITH THE CURRENT PRESCRIBER/CURRENT PRACTICE */
 md-dialog > form > md-dialog-content > md-toolbar > div.md-toolbar-tools {
-  background: -webkit-linear-gradient(155deg, #00a8ff 27%, #b6e1f7 100%) !important;
-  background: -webkit-linear-gradient(295deg, #00a8ff 27%, #b6e1f7 100%) !important;
-  background: linear-gradient(155deg, #00a8ff 27%, #b6e1f7 100%) !important;
+  background: -webkit-linear-gradient(13deg, #00a8ff 27%, #b6e1f7 100%) !important;
+  background: -webkit-linear-gradient(13deg, #00a8ff 27%, #b6e1f7 100%) !important;
+  background: linear-gradient(13deg, #00a8ff 27%, #b6e1f7 100%) !important;
 }
 
+/* This is the prescription name at the top */
 #ss-prescription-name + div > div.layout-column > md-toolbar {
   background: #00a8ff !important;
   color: rgba(0, 0, 0, 0.87) !important
 }
 
+/* this is the button link in the prescription name comopnent */
+div.ss-prescription-name > div.layout-column > md-menu > .md-button.md-default-theme.md-primary, .md-button.md-primary {
+  background: white !important;
+  background-color: white !important; 
+ }
+
+/* so each header in this page needs to be cleared to be seen */
 #ss-prescription-name + div > div.layout-column > md-toolbar > div.md-toolbar-tools {
   background: none;
 }
 
-div.ss-prescription-name > div.layout-column > md-menu > .md-button.md-default-theme.md-primary, .md-button.md-primary {
- background: white !important;
- background-color: white !important; 
+#ss-prescription-name + div > div.layout-column > div.layout-column > div > md-toolbar > div.md-toolbar-tools {
+  background: none;
 }
+
+
+/****************************  END PRESCRIPTION POPUP  **************************************/
