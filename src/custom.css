@@ -18,28 +18,29 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
   color: rgb(255,255,255) !important;
 }
 
+/* When you click new prescription on the patient chart */
+/* This has all the filters for prescriptions  */
 .md-subheader.md-default-theme, .md-subheader {
   color: rgba(0,0,0,0.54) !important;
-  /* background-color: rgb(0, 162, 255) !important; */
-  background-color: yellow;
 }
 
 .md-button.md-default-theme.md-primary, .md-button.md-primary {
   color: rgba(0,0,0,0.54) !important;
   /* background-color: rgb(0, 162, 255) !important; */
-  background-color: red;
+  background-color: red !important;
 }
 
+/* All the buttons */
 .md-button.md-actions-theme.md-primary {
   /* background-color: rgb(0, 162, 255) !important; */
   color: rgb(255,255,255) !important;
-  background-color: green;
+  background-color: #00a8ff !important;
 }
 
 md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar), md-toolbar.md-hue-1:not(.md-menu-toolbar) {
   /* background-color: rgb(0, 162, 255) !important; */
   color: rgba(0,0,0,0.87);
-  background-color: pink;
+  background-color: pink !important;
 }
 
 .md-title {
