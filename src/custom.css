@@ -9,81 +9,32 @@
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
-  background-color: #FF5722;
-  color: rgb(255,255,255);
+  background-image: linear-gradient(155deg, #04194D 0%, rgba(8, 55, 113, 0.94) 17%, rgba(16, 120, 188, 0.82) 50%, rgba(15, 161, 239, 0.22) 89%, rgba(0, 167, 255, 0.07) 100%) !important;
+  background-image: linear-gradient(155deg, #081f58 0%, rgba(8, 55, 113, 0.94) 17%, rgba(16, 120, 188, 0.82) 50%, rgba(15, 161, 239, 0.22) 89%, rgba(0, 167, 255, 0.07) 100%) !important;
+  background: -webkit-linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: -webkit-linear-gradient(295deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  color: rgb(255,255,255) !important;
 }
 
 .md-subheader.md-default-theme, .md-subheader {
   color: rgba(0,0,0,0.54) !important;
-  background-color: #FFCCBC !important;
+  background-color: rgb(0, 162, 255) !important;
 }
 
 .md-button.md-default-theme.md-primary, .md-button.md-primary {
   color: rgba(0,0,0,0.54) !important;
-  background-color: #FFCCBC !important;
+  background-color: rgb(0, 162, 255) !important;
 }
 
 .md-button.md-actions-theme.md-primary {
-  background-color: #FF5722 !important;
+  background-color: rgb(0, 162, 255) !important;
   color: rgb(255,255,255) !important;
 }
 
 md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar), md-toolbar.md-hue-1:not(.md-menu-toolbar) {
-  background-color: #FFCCBC !important;
+  background-color: rgb(0, 162, 255) !important;
   color: rgba(0,0,0,0.87);
-}
-
-#main-nav-practice {
-  background-color: #FFCCBC !important;
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#main-nav-practice-icon {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#main-nav-prescriber-icon {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#main-nav-patient-icon {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#main-nav-practice-text {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#main-nav-prescriber-text {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#main-nav-patient-text {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#prescription-nav-practice-icon {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#prescription-nav-prescriber-icon {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#prescription-nav-patient-icon {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#prescription-nav-practice-text {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#prescription-nav-prescriber-text {
-  color: rgba(0,0,0,0.87) !important;
-}
-
-#prescription-nav-patient-text {
-  color: rgba(0,0,0,0.87) !important;
 }
 
 .md-title {
@@ -98,9 +49,4 @@ md-card {
   flex-direction: column;
   margin: 8px;
    box-shadow: none;
-}
-
-#prescription-nav {
-  background-color: #FFCCBC !important;
-  color: rgba(0,0,0,0.87) !important;
 }
