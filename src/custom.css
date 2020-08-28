@@ -150,5 +150,9 @@ md-dialog > md-toolbar > md-label {
   background: linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
 }
 
-
 /****************************  END PRESCRIPTION POPUP  **************************************/
+
+
+md-icon[aria-label="airline_seat_flat"]:after {
+  content: "hello"
+}
