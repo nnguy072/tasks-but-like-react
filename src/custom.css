@@ -73,3 +73,9 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
   background: transparent linear-gradient(259deg, #00D3FF 0%, #00A8FF 100%) 0% 0% no-repeat padding-box !important;
   color: rgb(255,255,255) !important;
 }
+
+
+div[ui-view="chart-main"] > div > md-toolbar.md-toolbar-theme:not(.md-menu-toolbar) > .md-toolbar-tools {
+  background: white;
+  color: rgba(0,0,0,0.54) !important;
+}
