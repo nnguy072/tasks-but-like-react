@@ -126,8 +126,18 @@ div.ss-prescription-name > div.layout-column > md-menu > .md-button.md-default-t
   background: none;
 }
 
+/* Directions/Duration */
+#ss-prescription-name + div > div.layout-column > div.layout-column > div > md-toolbar {
+  background: #00a8ff !important;
+}
+
 #ss-prescription-name + div > div.layout-column > div.layout-column > div > md-toolbar > div.md-toolbar-tools {
   background: none !important;
+}
+
+/* Diagnosis */
+#ss-prescription-name + div > div.layout-column > div.layout-column > md-toolbar {
+  background: #00a8ff !important;
 }
 
 #ss-prescription-name + div > div.layout-column > div.layout-column > md-toolbar > div.md-toolbar-tools {
