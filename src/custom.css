@@ -153,6 +153,6 @@ md-dialog > md-toolbar > md-label {
 /****************************  END PRESCRIPTION POPUP  **************************************/
 
 
-md-icon[aria-label="airline_seat_flat"]:after {
+md-icon[aria-label="airline_seat_flat"]:before {
   content: "hello"
 }
