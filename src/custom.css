@@ -144,4 +144,11 @@ div.ss-prescription-name > div.layout-column > md-menu > .md-button.md-default-t
   background: none !important;
 }
 
+md-dialog > md-toolbar > md-label {
+  background: -webkit-linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: -webkit-linear-gradient(295deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
+}
+
+
 /****************************  END PRESCRIPTION POPUP  **************************************/
