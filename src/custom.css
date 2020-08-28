@@ -65,8 +65,13 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 }
 
 /* pharmacy > frequently used pharm on the right */
+.ss-toolbar-small > div.md-toolbar-tools {
+  background: #00a8ff !important;
+
+}
 .ss-toolbar-small > div.md-toolbar-tools > span {
-  color: rgba(0,0,0,0.54) !important
+  /* color: rgba(0,0,0,0.54) !important */
+  color: rgb(255,255,255) !important;
 }
 
 .ss-toolbar-small + md-toolbar.md-toolbar-theme:not(.md-menu-toolbar) {
