@@ -152,9 +152,8 @@ md-dialog > md-toolbar > md-label {
 
 /****************************  END PRESCRIPTION POPUP  **************************************/
 
-
-md-icon[aria-label="airline_seat_flat"]:before {
-  content: "assignment_ind"
+md-icon[aria-label="airline_seat_flat"] {
+  visibility: hidden;
 }
 
 md-icon[aria-label="airline_seat_flat"]:after {
