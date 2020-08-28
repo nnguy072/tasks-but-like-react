@@ -67,5 +67,6 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 /* Side chart maybe */
 .ss-chart-sidebar > md-toolbar.md-toolbar-theme:not(.md-menu-toolbar) {
   background-color: #00a8ff !important;
+  background: #00a8ff !important;
   color: rgb(255,255,255) !important;
 }
