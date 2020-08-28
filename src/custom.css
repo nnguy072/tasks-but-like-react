@@ -156,6 +156,6 @@ md-icon[aria-label="airline_seat_flat"] {
   visibility: hidden;
 }
 
-md-icon[aria-label="airline_seat_flat"]:after {
-  content: "assignment_ind"
+md-icon[aria-label="airline_seat_flat"]:before {
+  content: "\F002"
 }
