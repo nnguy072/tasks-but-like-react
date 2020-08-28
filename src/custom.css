@@ -111,7 +111,7 @@ md-dialog > form > md-dialog-content > md-toolbar > div.md-toolbar-tools {
   background: linear-gradient(155deg, #00a8ff 27%, #b6e1f7 100%) !important;
 }
 
-md-whiteframe > div#ss-prescription-name + div > div.layout-column > md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+#ss-prescription-name + div > div.layout-column > md-toolbar {
   background: #00a8ff !important;
   color: rgba(0, 0, 0, 0.87) !important
 }
