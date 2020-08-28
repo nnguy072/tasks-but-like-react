@@ -20,6 +20,17 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
   color: rgb(255,255,255) !important;
 }
 
+/* Not exactly sure what this is */
+/* md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar), md-toolbar.md-hue-1:not(.md-menu-toolbar) {
+  background-image: linear-gradient(155deg, #04194D 0%, rgba(8, 55, 113, 0.94) 17%, rgba(16, 120, 188, 0.82) 50%, rgba(15, 161, 239, 0.22) 89%, rgba(0, 167, 255, 0.07) 100%) !important;
+  background-image: linear-gradient(155deg, #081f58 0%, rgba(8, 55, 113, 0.94) 17%, rgba(16, 120, 188, 0.82) 50%, rgba(15, 161, 239, 0.22) 89%, rgba(0, 167, 255, 0.07) 100%) !important;
+  background: -webkit-linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: -webkit-linear-gradient(295deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: linear-gradient(155deg, #00a8ff 27%, #b6e1f7 90%) !important;
+  background: transparent linear-gradient(259deg, #00D3FF 0%, #00A8FF 100%) 0% 0% no-repeat padding-box;
+  color: rgb(255,255,255) !important;
+} */
+
 /* When you click new prescription on the patient chart */
 /* This has all the filters for prescriptions  */
 .md-subheader.md-default-theme, .md-subheader {
@@ -47,22 +58,14 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 }
 /************************ END BUTTONS *************************/
 
-md-toolbar.md-default-theme.md-hue-1:not(.md-menu-toolbar), md-toolbar.md-hue-1:not(.md-menu-toolbar) {
-  /* background-color: rgb(0, 162, 255) !important; */
-  color: rgba(0,0,0,0.87);
-  background-color: pink !important;
+/* the links */
+#ss-vm-status {
+  background-color: white !important;
+  color: #00D3FF !important;
 }
 
-/* .md-title {
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.005em;
+/* Side chart maybe */
+.ss-chart-sidebar > md-toolbar.md-toolbar-theme:not(.md-menu-toolbar) {
+  background-color: #00a8ff !important;
+  color: rgb(255,255,255) !important;
 }
-
-md-card {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  margin: 8px;
-   box-shadow: none;
-} */
