@@ -4,14 +4,6 @@
   display: none;
 }
 
-/* Side bar Items */
-#ss-chart-sidebar-education, 
-#ss-chart-sidebar-notes, 
-#ss-navigation-selected, 
-#ss-chart-sidebar-diagnoses {
-  display: none;
-}
-
 #ss-content {
   padding-top: 0px;
 }
@@ -77,3 +69,6 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
   color: rgba(0,0,0,0.54) !important
 }
 
+.ss-toolbar-small > div.md-toolbar-tools + md-toolbar {
+  background: white !important;
+}
